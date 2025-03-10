@@ -1,0 +1,13 @@
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    <enterprise-beans>
+        <session>
+            <ejb-name>GreetingBean</ejb-name>
+            <remote>com.example.ejb.GreetingRemote</remote>
+            <ejb-class>com.example.ejb.GreetingBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
+

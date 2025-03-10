@@ -1,0 +1,12 @@
+<application xmlns="http://java.sun.com/xml/ns/javaee"
+             version="5">
+    <module>
+        <ejb>ejb-module-1.0.jar</ejb>
+    </module>
+    <module>
+        <web>
+            <web-uri>web-module-1.0.war</web-uri>
+            <context-root>/myapp</context-root>
+        </web>
+    </module>
+</application>
