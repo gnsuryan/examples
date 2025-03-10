@@ -12,6 +12,9 @@
         <module>web-module</module>
         <module>ear-module</module>
     </modules>
+    <properties>
+        <maven.compiler.release>17</maven.compiler.release>
+    </properties>
 	<build>
 	  <finalName>ejb3-maven-weblogic</finalName>
 	</build>

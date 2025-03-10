@@ -1,5 +1,5 @@
-<application xmlns="http://java.sun.com/xml/ns/javaee"
-             version="5">
+<application xmlns="https://jakarta.ee/xml/ns/jakartaee"
+             version="9.0">
     <module>
         <ejb>ejb-module-1.0.jar</ejb>
     </module>

@@ -1,5 +1,5 @@
-<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee"
-         version="3.0">
+<ejb-jar xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         version="4.0">
     <enterprise-beans>
         <session>
             <ejb-name>GreetingBean</ejb-name>
