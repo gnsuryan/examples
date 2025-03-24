@@ -1,0 +1,12 @@
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+             version="7.0">
+    <module>
+        <ejb>ejb-module-1.0.jar</ejb>
+    </module>
+    <module>
+        <web>
+            <web-uri>web-module-1.0.war</web-uri>
+            <context-root>/myapp</context-root>
+        </web>
+    </module>
+</application>
